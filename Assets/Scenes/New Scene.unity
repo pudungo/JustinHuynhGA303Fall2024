@@ -421,14 +421,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 1356280180}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fcc1557bb3fd60429bcf59fbb60d7a6, type: 3}
+  m_Script: {fileID: 11500000, guid: b7d6f63a029a65045a6a2b8783c7f7e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ed: Humankind cannot gain anything without first giving something in return.
-  al: To obtain, something of equal value must be lost.
-  winry: That is Alchemy's first law of Equivalent Exchange.
-  resembool: In those days, we really believed that to be the world's one and only
-    truth.
+  startint: 0
+  additionTotal: 0
+  subtractionTotal: 0
+  multiplicationTotal: 0
+  divisionTotal: 0
+  startlong: 0
+  additionTotallong: 0
+  subtractionTotallong: 0
+  multiplicationTotallong: 0
+  divisionTotallong: 0
+  startfloat: 0
+  additionTotalfloat: 0
+  subtractionTotalfloat: 0
+  multiplicationTotalfloat: 0
+  divisionTotalfloat: 0
+  startdouble: 0
+  additionTotaldouble: 0
+  subtractionTotaldouble: 0
+  multiplicationTotaldouble: 0
+  divisionTotaldouble: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
