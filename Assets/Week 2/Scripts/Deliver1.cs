@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Delivery1 : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class Delivery1 : MonoBehaviour
     public GameObject Beat5;
     public float idleTimer;
     public float swapTime = 1f;
+    public Button SwapChar;
 
     // Start is called before the first frame update
     void Start()
