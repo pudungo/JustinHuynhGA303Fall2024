@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - cannonBallTag
+  - cannonBall2Tag
+  - Cube
+  - Collectible
+  - RedDoor
+  - BlueDoor
+  - GreenDoor
   layers:
   - Default
   - TransparentFX
