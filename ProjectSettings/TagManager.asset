@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - waltz105
+  - RedDoor
+  - BlueDoor
+  - GreenDoor
+  - Door
+  - cube
+  - Slime
   layers:
   - Default
   - TransparentFX
