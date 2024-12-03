@@ -7,6 +7,8 @@ public class BaseEnemy : MonoBehaviour
     public float health = 100f;
     public float speed = 3f;
     public float attackDamage = 0f;
+    public AudioSource attackSfx;
+    public AudioSource damageSfx;
 
     private float timer = 0f;
 
@@ -28,6 +30,7 @@ public class BaseEnemy : MonoBehaviour
         if(timer >= attackInterval)
         {
             Attack();
+            
             timer = 0f;
         }
     }
@@ -35,6 +38,7 @@ public class BaseEnemy : MonoBehaviour
     protected virtual void Attack()
     {
         player.TakeDamage(attackDamage);
+       
     }
 
     public virtual void Move()

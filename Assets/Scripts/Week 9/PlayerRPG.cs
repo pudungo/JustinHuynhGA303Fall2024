@@ -6,13 +6,17 @@ using UnityEngine.UI;
 public class PlayerRPG : MonoBehaviour
 {
     public float health = 100f;
+    public float maxHealth = 100f;
+
     public float attackDamage = 5f;
     public float attackInterval = 1f;
+
 
     private float timer;
     private bool isAttackReady = true;
 
     public Image attackReadyImage;
+ 
 
     // Start is called before the first frame update
     void Start()
@@ -66,9 +70,20 @@ public class PlayerRPG : MonoBehaviour
     {
         health -= damage;
 
+
         if (health <= 0)
         {
             Debug.Log("YOU DIED");
+        }
+    }
+
+    public void AddHealth(float healthAmount)
+    {
+        health += healthAmount;
+
+        if(health > maxHealth)
+        {
+            health = maxHealth;
         }
     }
 }

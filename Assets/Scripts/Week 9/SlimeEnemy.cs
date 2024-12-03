@@ -13,8 +13,6 @@ public class SlimeEnemy : BaseEnemy
     protected override void Start()
     {
         base.Start();
-
-        Debug.Log("HeeHo I'm a slime!");
     }
 
     // Update is called once per frame
@@ -29,11 +27,13 @@ public class SlimeEnemy : BaseEnemy
         {
             base.Attack();
             Debug.Log(this.gameObject.name + " deals " + attackDamage + " damage to you!");
+            attackSfx.Play();
         }
     }
 
     public override void TakeDamage(float damage)
     {
         base.TakeDamage(damage);
+        damageSfx.Play();
     }
 }
