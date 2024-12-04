@@ -11,6 +11,9 @@ TagManager:
   - Door
   - cube
   - Slime
+  - Vergil
+  - Verts
+  - Hors
   layers:
   - Default
   - TransparentFX
