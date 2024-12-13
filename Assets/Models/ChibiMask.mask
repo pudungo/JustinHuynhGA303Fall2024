@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ChibiMask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: IK Chain002
+    m_Weight: 0
+  - m_Path: IK Chain003
+    m_Weight: 0
+  - m_Path: Root
+    m_Weight: 0
+  - m_Path: Root/Pelvis
+    m_Weight: 0
+  - m_Path: Root/Pelvis/L_Thigh
+    m_Weight: 0
+  - m_Path: Root/Pelvis/L_Thigh/L_Shin
+    m_Weight: 0
+  - m_Path: Root/Pelvis/L_Thigh/L_Shin/L_Foot
+    m_Weight: 0
+  - m_Path: Root/Pelvis/L_Thigh/L_Shin/L_Foot/L_Toe
+    m_Weight: 0
+  - m_Path: Root/Pelvis/R_Thigh
+    m_Weight: 0
+  - m_Path: Root/Pelvis/R_Thigh/R_Shin
+    m_Weight: 0
+  - m_Path: Root/Pelvis/R_Thigh/R_Shin/R_Foot
+    m_Weight: 0
+  - m_Path: Root/Pelvis/R_Thigh/R_Shin/R_Foot/R_Toe
+    m_Weight: 0
+  - m_Path: Root/Spine
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/BackPack
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/L_Clav
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/L_Clav/L_UArm
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/L_Clav/L_UArm/L_ForeArm
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/L_Clav/L_UArm/L_ForeArm/L_Hand
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/L_Clav/L_UArm/L_ForeArm/L_Hand/L_Mid_01
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/L_Clav/L_UArm/L_ForeArm/L_Hand/L_Mid_01/L_Mid_02
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/L_Clav/L_UArm/L_ForeArm/L_Hand/L_Mid_003
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/L_Clav/L_UArm/L_ForeArm/L_Hand/L_Mid_003/L_Mid_004
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/L_Clav/L_UArm/L_ForeArm/L_Hand/L_Pink_01
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/L_Clav/L_UArm/L_ForeArm/L_Hand/L_Pink_01/L_Pink_02
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/L_Clav/L_UArm/L_ForeArm/L_Hand/L_Ring_01
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/L_Clav/L_UArm/L_ForeArm/L_Hand/L_Ring_01/L_Ring_02
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/L_Clav/L_UArm/L_ForeArm/L_Hand/L_Thumb_01
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/L_Clav/L_UArm/L_ForeArm/L_Hand/L_Thumb_01/L_Thumb_02
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/Neck
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/Neck/Head
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/Neck/Head/Glasses
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/Neck/Head/Goat
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/Neck/Head/Hat
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/Neck/Head/Hat/Hat_Bill
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/Neck/Head/Head_End
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/R_Clav
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/R_Clav/R_UArm
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/R_Clav/R_UArm/R_ForearmArm
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/R_Clav/R_UArm/R_ForearmArm/R_Hand
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/R_Clav/R_UArm/R_ForearmArm/R_Hand/Axe
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/R_Clav/R_UArm/R_ForearmArm/R_Hand/R_Mid_01
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/R_Clav/R_UArm/R_ForearmArm/R_Hand/R_Mid_01/R_Mid_02
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/R_Clav/R_UArm/R_ForearmArm/R_Hand/R_Mid_003
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/R_Clav/R_UArm/R_ForearmArm/R_Hand/R_Mid_003/R_Mid_004
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/R_Clav/R_UArm/R_ForearmArm/R_Hand/R_Pink_01
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/R_Clav/R_UArm/R_ForearmArm/R_Hand/R_Pink_01/R_Pink_02
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/R_Clav/R_UArm/R_ForearmArm/R_Hand/R_Ring_01
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/R_Clav/R_UArm/R_ForearmArm/R_Hand/R_Ring_01/R_Ring_02
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/R_Clav/R_UArm/R_ForearmArm/R_Hand/R_Thumb_01
+    m_Weight: 1
+  - m_Path: Root/Spine/Chest/R_Clav/R_UArm/R_ForearmArm/R_Hand/R_Thumb_01/R_Thumb_02
+    m_Weight: 1
+  - m_Path: Toon
+    m_Weight: 0
